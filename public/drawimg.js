@@ -27,7 +27,7 @@ function ajaxread(filenm){
 };
 
   $.fn.drawimg = function(name){ //background
-        ajaxread('/outimg.js');
+        ajaxread('http://codegarage.azurewebsites.net/outimg.js');
      this.css('background', 'url('+uniarr[0][1][uniarr[0][0][name]]+') no-repeat').css('width', uniarr[0][2][uniarr[0][0][name]]).css('height', uniarr[0][3][uniarr[0][0][name]]).css('background-position', uniarr[0][4][uniarr[0][0][name]]);
   };
 })(jQuery);
