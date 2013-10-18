@@ -13,6 +13,43 @@ imgheight['1'] = '46';
 imgposition['1'] = '50% 50%';
 
 
+
+imgname['suffick'] = '2';
+
+imgurl['2'] = 'http://farm8.staticflickr.com/7385/10350638364_f4853a38d5_o.png';
+
+imgwidth['2'] = '46';
+
+imgheight['2'] = '46';
+
+imgposition['2'] = '50% 50%';
+
+
+
+imgname['Joshua Hibbert'] = '3';
+
+imgurl['3'] = 'http://farm8.staticflickr.com/7451/10350944943_d5b3884294_o.png';
+
+imgwidth['3'] = '46';
+
+imgheight['3'] = '46';
+
+imgposition['3'] = '50% 50%';
+
+
+
+imgname['Lego Mushroom'] = '4';
+
+imgurl['4'] = 'http://farm8.staticflickr.com/7456/10350806496_3d0df2bf5b_o.png
+
+';
+
+imgwidth['4'] = '46';
+
+imgheight['4'] = '46';
+
+imgposition['4'] = '50% 50%';
+
 var arr1 = [];
 arr1.push(imgname); //0
 arr1.push(imgurl); //1
