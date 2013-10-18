@@ -6,10 +6,10 @@ var imgwidth = {};
 var imgheight = {};
 var imgposition = {};
 
-imgname['#logo'] = '1';
-imgurl['1'] = 'https://ssl.gstatic.com/accounts/ui/logo_2x.png';
-imgwidth['1'] = '232';
-imgheight['1'] = '76';
+imgname['Chris Coyier'] = '1';
+imgurl['1'] = 'http://farm3.staticflickr.com/2891/10350267473_da1e313fd2_o.png';
+imgwidth['1'] = '46';
+imgheight['1'] = '46';
 imgposition['1'] = '50% 50%';
 
 
