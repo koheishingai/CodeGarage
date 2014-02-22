@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeGarage</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oxygen+Mono' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='./styles/cgs.css' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://lirancohen.github.io/stickUp/js/stickUp.min.js"></script>
+    <!--[if lt IE 7 ]><link href="./styles/ie.css" rel="stylesheet" type="text/css"><![endif]-->
+    <!--[if IE 7 ]><link href="./styles/ie.css" rel="stylesheet" type="text/css"><![endif]-->
+    <!--[if IE 8 ]><link href="./styles/ie.css" rel="stylesheet" type="text/css"><![endif]-->
+    <!--[if IE 9 ]><link href="./styles/ie.css" rel="stylesheet" type="text/css"><![endif]-->
+</head>
+
+<body>
+    <span class="window_label">Run</span>
+    <div class="main">
+        <!--- call editor -->
+        <div id="editor_panel"></div>
+        <textarea id="editor_area"></textarea>
+
+    </div>
+    <script src='./scripts/cgs1.js'></script>
+    <script src='./scripts/cgs2.js'></script>
+    <div id='remote'>
+        <div id='rhead'>...</div>
+        <div class='icon' id='share'></div>
+        <div class='icon' id='cods'></div>
+        <div class='icon last' id='sets'></div>
+    </div>
+
+    <div id="colorm" style="display:none;">
+        <div id="cbox" style="margin-left: 143.5px; margin-top: 76.5px;">
+            <div id="close"></div>
+            <div id="mhead">
+                <span id="pubss">Publish This Page</span>
+            </div>
+            <div id="mcont">
+                <div class="jump-view jump-view-last">
+                    <div id="full-page-link" href="" class="jump-label jump-label-full" target="_blank">
+                        Publish >>>
+                    </div>
+                    <input type="url" id="full-page-url" readonly="readonly" value="" placeholder="Publish URL will be created here">
+                </div>
+                <div id='done'>Save it.</div>
+                <button style='display:none;' class="button-primary js-signup-trigger js-track-click-event" data-event-name="homepage_splash_signup">Custome this URL</button>
+                <ol class="day-results" style="margin: 5px 0px 24px; padding: 0px; color: rgb(48, 57, 66); font-family: 'Lucida Grande', sans-serif; font-size: 12px;">
+                </ol>
+
+            </div>
+            <div id="okbtn">Close</div>
+        </div>
+    </div>
+    <div id='start'>Source</div>
+    <div id='clock'></div>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js"></script>
+    <script src="/scripts/cgs3.js"></script>
+
+</body>
+
+</html>
