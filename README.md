@@ -17,3 +17,9 @@ cd codegarage
 # testing
 node app
 ```
+
+## Demo
+[View the demo here](http://www.koheishingai.com/codegarage)
+
+## Introduction Movie
+[Introduction of CodeGarage](http://youtu.be/5vlTaMNrRY8)
