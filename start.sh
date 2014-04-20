@@ -1,0 +1,2 @@
+cd nodeserver
+node app

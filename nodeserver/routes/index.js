@@ -10,10 +10,28 @@ var async = require("async"),
     });
 
 exports.index = function(req, res){
-  console.log(req.url);
-  //client.get('/', function(err, val){
-  res.writeHead(200, {"Content-Type": "text/html"}); 
-  res.write("test");
-  res.end();
+  var url = req.url;
+  client.get(url, function(err, val){
+      res.writeHead(200, {"Content-Type": "text/html"}); 
+      res.write(val);
+      res.end();
+  });
+};
+
+exports.edit = function(req, res){
+  var url = req.url;
+      url = url.split("/edit").join("");
+  client.get(url, function(err, val){
+      res.writeHead(200, {"Content-Type": "text/html"}); 
+      res.write("edit "+val);
+      res.end();
+  });
+};
+
+exports.edit_menu = function(req, res){
+  //client.get('edit', function(err, val){
+      res.writeHead(200, {"Content-Type": "text/html"}); 
+      res.write("edit");
+      res.end();
   //});
 };
